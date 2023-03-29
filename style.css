@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(232, 225, 214);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: var(--myfont);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  background-color: #d3ecc8;
+  border-radius: 10px;
+  font-size: 30px;
+  -webkit-border-radius: 10px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12;
+  overflow: hidden;
+  width: calc(100vw - 65vw);
+  max-width: 100%;
+}
+
+.header {
+  background: var(--lg-color);
+  padding: 30px 0;
+}
+
+.header h1 {
+  color: #222;
+  font-family: var(--my-btn-font);
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form {
+  padding: 40px;
+}
+
+.controls {
+  margin-bottom: 20px;
+
+  position: relative;
+}
+
+.controls label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.controls input {
+  width: 100%;
+  border: 30px solid #f0f0f0;
+  border-radius: 30px;
+  display: block;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 12px;
+}
+
+.form .submit {
+  background: rgb(88, 72, 103);
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #fff;
+  display: block;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 15px 0;
+  margin-top: 20px;
+  width: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 1s ease;
+}
+
+.form .submit:hover {
+  background: linear-gradient(to right, #74ebd5, #9face6);
+}
+
+@media (max-width: 998px) {
+  .container {
+    width: calc(100vw-25vw);
+    max-width: 100%;
+  }
+}

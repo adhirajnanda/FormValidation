@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Registration Form</h1>
+      </div>
+
+      <form action="" name="r_form" onsubmit="return validate()">
+        <div id="controls">
+          <label for="firstname">First Name :</label>
+          <input type="text" id="firstname" />
+        </div>
+
+        <div id="controls">
+          <label for="lastname">Last Name :</label>
+          <input type="text" id="lastname" />
+        </div>
+
+        <div id="controls">
+          <label for="email">Email Id : </label>
+          <input type="text" id="email" />
+        </div>
+
+        <div id="controls">
+          <label for="Mobile">Mobile No :</label>
+          <input type="number" id="mobile" />
+        </div>
+
+        <div id="controls">
+          <label for="aadhar">Aadhar No :</label>
+          <input type="number" id="aadhar" />
+        </div>
+
+        <div id="controls">
+          <label for="pan">PAN No :</label>
+          <input type="text" id="pan" />
+        </div>
+
+        <div id="controls">
+          <label for="password">Password :</label>
+          <input type="password" id="password" />
+        </div>
+
+        <div id="controls">
+          <label for="password">Password :</label>
+          <input type="password" id="cpassword" />
+        </div>
+
+        <input type="submit" id="submit" />
+
+        <!-- <button type="submit" id="submitbtn">Submit</button> -->
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
